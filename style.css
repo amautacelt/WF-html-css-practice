@@ -1,0 +1,63 @@
+/* 1. color, size, space */
+/* 2. display aka where things go*/
+
+* {
+    outline: 2px dotted red;
+}
+
+#wrapper {
+    width: 980px;
+}
+
+#header {
+    border: 20px groove green;
+    background-color: saddlebrown;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    display: inline-block;
+}
+
+#header p {
+    color: blue;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+li {
+    background-color: lightseagreen;
+    width: 140px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#ravioli {
+    color: orange;
+}
+
+#pesto {
+    color: green;
+}
+
+#seafood {
+    color: crimson;
+}
+
+.inbl {
+    display: inline-block;
+}
+
+.post {
+    background-color: plum;
+    padding: 30px;
+    margin: 15px;
+    width: 450px;
+}
+
+.post, #header {
+    font-family: fantasy;
+    outline: 4px solid yellow;
+}
